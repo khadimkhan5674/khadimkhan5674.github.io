@@ -528,7 +528,39 @@ a {
     justify-content: center;
    }
   }
-
+  @media screen and (max-width: 532px) {
+    .github-readme-stats {
+        width: 100%;
+        height: auto;
+    }
+    #nav-heading>h1 {
+        font-size: 25px;
+    }
+    #auto-type {
+        font-size: 2rem;
+    }
+    #home>.container>:nth-child(1){
+        font-size: 2rem;
+    }
+    #home>.container>:nth-child(2){
+        font-size: 3rem;
+    }
+    #home>.container>:nth-child(2)>span{
+        color:#f9ca24;
+    }
+    #home>.container>:nth-child(5){
+        text-align: center;
+        font-size: 1rem;
+    }
+    #home>.container>:nth-child(6){
+        margin-top: 10px;
+    }
+    #about>.container {
+        height: 100vh;
+        margin-bottom: 5px;
+    }
+  }
+  
   /* CSS code to change scrollbar color */
 /* Works for WebKit-based browsers like Chrome and Safari */
 ::-webkit-scrollbar {
