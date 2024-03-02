@@ -539,24 +539,15 @@ a {
     #auto-type {
         font-size: 2rem;
     }
-    #home>.container>:nth-child(1){
-        font-size: 2rem;
+    #home>.container>:nth-child(2){
+        font-size: auto;
     }
+  }
+  @media screen and (max-width: 420px){
     #home>.container>:nth-child(2){
         font-size: 2.5rem;
     }
-    #home>.container>:nth-child(2)>span{
-        color:#f9ca24;
-    }
-    #home>.container>:nth-child(5){
-        text-align: center;
-        font-size: 1rem;
-    }
-    #home>.container>:nth-child(6){
-        margin-top: 10px;
-    }
   }
-  
   /* CSS code to change scrollbar color */
 /* Works for WebKit-based browsers like Chrome and Safari */
 ::-webkit-scrollbar {
