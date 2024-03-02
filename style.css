@@ -543,7 +543,7 @@ a {
         font-size: 2rem;
     }
     #home>.container>:nth-child(2){
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     #home>.container>:nth-child(2)>span{
         color:#f9ca24;
@@ -554,10 +554,6 @@ a {
     }
     #home>.container>:nth-child(6){
         margin-top: 10px;
-    }
-    #about>.container {
-        height: 100vh;
-        margin-bottom: 5px;
     }
   }
   
