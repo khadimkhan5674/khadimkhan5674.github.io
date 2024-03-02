@@ -545,6 +545,9 @@ a {
     #about>.container{
         margin-bottom: 25px;
     }
+    #introduction {
+        font-size: 1rem;
+    }
   }
   @media screen and (max-width: 420px){
     #home>.container>:nth-child(2){
