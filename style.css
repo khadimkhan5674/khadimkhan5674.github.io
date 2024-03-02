@@ -537,10 +537,13 @@ a {
         font-size: 25px;
     }
     #auto-type {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     #home>.container>:nth-child(2){
         font-size: auto;
+    }
+    #about>.container{
+        margin-bottom: 25px;
     }
   }
   @media screen and (max-width: 420px){
