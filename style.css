@@ -547,7 +547,7 @@ a {
     }
     #about-content>:nth-child(2)>p{
         color: #fff;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
   }
   @media screen and (max-width: 420px){
